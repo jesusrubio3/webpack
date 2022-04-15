@@ -1,0 +1,24 @@
+::placeholder {
+    color: gray;
+  }
+
+  #a{
+      background-color: yellow;
+  }
+
+  #c{
+      background-color: green;
+  }
+  .image {
+    background-color: #ccc;
+  }
+  @media (min-resolution: 2dppx) {
+    .image {
+      background-color: yellow;
+    }
+  }
+
+  img{
+    width: 100px;
+    height: 100px;
+  }
