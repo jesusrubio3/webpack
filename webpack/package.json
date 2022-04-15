@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "postcss": "postcss ./styles.css --output ./stylepost.css"
+    "postcss": "postcss ./styles.css --output ./stylepost.css",
+    "start": "webpack serve --config webpack.config.js --open --port 3000"
+
   },
   "keywords": [],
   "author": "",
