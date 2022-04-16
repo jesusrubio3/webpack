@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/adios.js',
+  entry: './src/index.js',
   output: {
     clean : true,
     path: path.resolve(__dirname, 'dist'),
